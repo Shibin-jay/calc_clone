@@ -17,7 +17,7 @@ for (let key of keys) {
 			display_input.innerHTML = CleanInput(input);
 		} else if (value == "=") {
 			let result = eval(PrepareInput(input));
-
+			display_input.style.fontSize ="x-large";
 			display_output.innerHTML = CleanOutput(result);
 		} else if (value == "brackets") {
 			if (
